@@ -33,7 +33,7 @@
   "memberIntroduction": {
     "title": "チームメンバー",
     "description": "我々のチームは優秀なベトナムエンジン中心としたベトナムエンジンを設立します。かれらは有名なべトナム大学を卒業し有名な会社で働いた経験があるし。",
-    "memberLists": [
+    "memberList": [
       {
         "img": { "src": "../../images/szksensei.jpg", "alt": "szksensei" },
         "title": "CTO 鈴木高弘",

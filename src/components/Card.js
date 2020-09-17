@@ -1,9 +1,9 @@
 import React from "react"
-import "./Card.css"
 import Img from "gatsby-image"
 
+import "./Card.css"
+
 const Card = ({ data }) => {
-  console.log(data)
   return (
     <div className="col-3 col-s-5 card">
       <h1 className="card__title">{data.title}</h1>
