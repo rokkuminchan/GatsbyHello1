@@ -1,0 +1,84 @@
+.philosophy {
+  background-color: rgb(1, 17, 32);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.philosophy__title {
+  color: white;
+  text-align: center;
+}
+
+.philosophy__value-list {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  height: 200px;
+  margin: auto;
+  width: 60%;
+  padding-bottom: 60px;
+  padding-top: 45px;
+}
+
+.philosophy__mindset-list {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(0deg, rgb(6 6 6 / 72%), rgb(21 12 12 / 75%)),
+    url(../images/philosophy-bg.jpg);
+  background-size: 100% 200%;
+  height: 300px;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 320px) {
+  .philosophy {
+    background-color: #001225;
+    padding-top: 1px;
+    padding-bottom: 10px;
+  }
+
+  .philosophy__title {
+    font-size: 24px;
+    text-align: center;
+    vertical-align: center;
+    font-weight: normal;
+  }
+
+  .philosophy__mindset-list {
+    background-size: 74% auto;
+    height: 170px;
+    justify-content: center;
+  }
+
+  .philosophy__value-list {
+    height: 140px;
+    margin: 0px auto;
+    width: 95%;
+    padding-bottom: 0px;
+    padding-top: 5px;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .philosophy__value-list {
+    height: 200px;
+    width: 80%;
+    padding-bottom: 0px;
+    padding-top: 30px;
+  }
+
+  .philosophy__title {
+    font-size: 34px;
+    vertical-align: center;
+    font-weight: normal;
+  }
+
+  .philosophy__mindset-list {
+    background-size: 100% 200%;
+    background-position-y: bottom;
+    height: 350px;
+    justify-content: center;
+  }
+}

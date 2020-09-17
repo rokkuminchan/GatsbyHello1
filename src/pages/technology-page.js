@@ -1,18 +1,16 @@
 import React from "react"
-import { graphql } from "gatsby"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import ViewList from "../components/viewList"
 
-function TechnologyPage({ data }) {
+import Layout from "../components/layout"
+import Introduction from "../sections/Introduction"
+import TechnologyList from "../sections/TechnologyList"
+import SEO from "../components/seo"
+
+const TechnologyPage = ({ data }) => {
   return (
     <Layout>
-      <Link to="/">Home</Link>
-      <SEO title="World Technology" />
-      {data.technologyJson.data.map((item, index) => {
-        return <ViewList key={index} data={item} />
-      })}
+      <SEO title="World technology" />
+      <Introduction data={data.technologyJson.introduction} />
+      <TechnologyList data={data.technologyJson.technologyList} />
     </Layout>
   )
 }
@@ -22,13 +20,20 @@ export default TechnologyPage
 export const query = graphql`
   {
     technologyJson {
-      data {
-        title
+      introduction {
         description
-        imgSrc {
-          childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid
+        title
+      }
+      technologyList {
+        description
+        link
+        title
+        img {
+          src {
+            childImageSharp {
+              fluid(maxWidth: 300) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }

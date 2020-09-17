@@ -1,0 +1,13 @@
+.introduction {
+  width: 100%;
+}
+
+.introduction__title {
+  font-size: 34px;
+  line-height: 43px;
+}
+
+.introduction__description {
+  letter-spacing: 1px;
+  line-height: 24px;
+}
