@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import { withRouter, Link } from "react-router-dom"
+import { Link } from "gatsby"
 import { MenuOpenRounded, CloseOutlined } from "@material-ui/icons"
 import IconButton from "@material-ui/core/IconButton"
 import AppBar from "@material-ui/core/AppBar"
@@ -70,9 +70,9 @@ function Header({ history }) {
   }
 
   useEffect(() => {
-    history.listen(() => {
-      setState({ clicked: false, menuIcon: menuOpenIcon })
-    })
+    // history.listen(() => {
+    //   setState({ clicked: false, menuIcon: menuOpenIcon })
+    // })
   }, [history])
   return (
     <React.Fragment>
@@ -103,4 +103,4 @@ function Header({ history }) {
   )
 }
 
-export default withRouter(Header)
+export default Header

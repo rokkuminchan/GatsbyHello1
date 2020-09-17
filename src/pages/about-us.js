@@ -1,7 +1,5 @@
 import React from "react"
 
-// import Header from "../sections/header/Header"
-// import Footer from "../sections/footer/Footer"
 import Layout from "../components/layout"
 import Philosophy from "../sections/Philosophy"
 import UniversityList from "../sections/about us/UniversityList"

@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react"
 import { gsap } from "gsap"
-import { Link } from "react-router-dom"
+import { Link } from "gatsby"
 import { makeStyles } from "@material-ui/core/styles"
 import hinh from "../images/6.jpg"
 const useStyles = makeStyles(theme => ({

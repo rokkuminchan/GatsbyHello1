@@ -14,6 +14,8 @@ const University = props => {
   const { description, img, color } = props.item
   const index = props.index
 
+  console.log(img)
+
   return (
     <UniversityInner index={index}>
       <UniversityImage>
