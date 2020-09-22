@@ -8,7 +8,10 @@ import RoundTitleListItem from "./RoundTitleListItem";
 
 let container;
 
-const Data = {};
+const Data = {
+  title: "MISSION",
+  description: "日本のに求められる高度IT人材を派遣する。",
+};
 
 beforeEach(() => {
   container = document.createElement("div");
@@ -24,6 +27,10 @@ it("can render a view component from data", () => {
   act(() => {
     ReactDOM.render(<RoundTitleListItem data={Data} />, container);
   });
+  const title = container.querySelector("h1")
+  const description = container.querySelector("p")
 
-  expect(true).toBe(true);
+  expect(title.textContent).toBe(Data.title)
+  expect(description.textContent).toBe(Data.description)
+
 });
