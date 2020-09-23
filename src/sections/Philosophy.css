@@ -1,11 +1,12 @@
-.philosophy {
+/* .philosophy {
   background-color: rgb(1, 17, 32);
   padding-top: 15px;
   padding-bottom: 15px;
-}
+} */
 
 .philosophy__title {
   color: white;
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -24,7 +25,7 @@
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(0deg, rgb(6 6 6 / 72%), rgb(21 12 12 / 75%)),
-    url(../images/philosophy-bg.jpg);
+    url(../images/philosophy-image-change.jpeg);
   background-size: 100% 200%;
   height: 300px;
   font-size: 1.2rem;
@@ -55,17 +56,17 @@
   .philosophy__value-list {
     height: 140px;
     margin: 0px auto;
-    width: 95%;
-    padding-bottom: 0px;
+    width: 100%;
+    padding-bottom: 100px;
     padding-top: 5px;
   }
 }
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 800px) {
   .philosophy__value-list {
     height: 200px;
     width: 80%;
-    padding-bottom: 0px;
+    padding-bottom: 300px;
     padding-top: 30px;
   }
 
