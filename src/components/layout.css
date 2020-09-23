@@ -241,7 +241,7 @@ textarea {
   -webkit-appearance: button;
   font: inherit;
 }
-* {
+/* * {
   box-sizing: inherit;
 }
 *:before {
@@ -249,7 +249,7 @@ textarea {
 }
 *:after {
   box-sizing: inherit;
-}
+} */
 h2 {
   margin-left: 0;
   margin-right: 0;
