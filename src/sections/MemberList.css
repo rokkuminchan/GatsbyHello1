@@ -6,7 +6,7 @@
   }
   /* For mobile phones: */
 [class*="col-"] {
-  width: 80%;
+  width: 90%;
 }
 @media only screen and (min-width: 600px) {
   /* For tablets: */
@@ -17,7 +17,7 @@
     width: 16.66%;
   }
   .col-s-3 {
-    width: 25%;
+    width: 2%;
   }
   .col-s-4 {
     width: 33.33%;
@@ -36,7 +36,7 @@
     width: 16.66%;
   }
   .col-3 {
-    width: 25%;
+    width: 27%;
   }
   .col-4 {
     width: 33.33%;

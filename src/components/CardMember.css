@@ -28,12 +28,15 @@
     color: #000077;
     text-align: center;
     padding: 15px;
+    margin-bottom:0em;
   }
   
   .cardmember__description {
     color: #757575;
     box-sizing: border-box;
     margin-top: 5px;
+    font-size: 1em;
+
 
   }
 }
@@ -69,12 +72,14 @@
     color: #000077;
     text-align: center;
     padding: 20px;
+    margin-bottom:0em;
   }
   
   .cardmember__description {
     color: #757575;
     box-sizing: border-box;
     margin-top: 5px;
+    font-size: 1em;
   }
   
 }
