@@ -24,7 +24,7 @@ function Header({ history }) {
     { id: "/service", name: "Services" },
     { id: "/technology", name: "Technology" },
     { id: "/contact", name: "Contact" },
-    { id: "/about", name: "About us" },
+    { id: "/about-us", name: "About us" },
   ]
   const NavLinkItem = props => {
     const { id, name } = props.item
