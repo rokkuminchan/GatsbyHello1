@@ -4,6 +4,7 @@ html {
   font: 112.5%/1.45em georgia, serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 body {
   margin: 0;
@@ -241,7 +242,7 @@ textarea {
   -webkit-appearance: button;
   font: inherit;
 }
-* {
+/* * {
   box-sizing: inherit;
 }
 *:before {
@@ -249,7 +250,7 @@ textarea {
 }
 *:after {
   box-sizing: inherit;
-}
+} */
 h2 {
   margin-left: 0;
   margin-right: 0;

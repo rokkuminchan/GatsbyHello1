@@ -14,7 +14,7 @@ const University = props => {
   const { description, img, color } = props.item
   const index = props.index
 
-  console.log(img)
+  console.log(img.src.childImageSharp.fluid)
 
   return (
     <UniversityInner index={index}>
