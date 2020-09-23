@@ -1,21 +1,58 @@
-.memberintroduction {
-    padding-top: 15px;
-    padding-bottom: 15px;
+ @media only screen and (max-width: 768px) {
+    .memberintroduction__title {
+      color: #053C76;
+      background: white;
+      text-align: center;
+      border: 10px  solid #D5EEFD;
+      height: 30px;
+      width: 60%;
+      padding: 24px 10px;
+      font-size: 1.5em;
+      font-weight: bold;
+      transform: translateY(-100%); 
+      background-color: "#F3EF55";
+      margin: 0 auto;
+    }
+  
+    .memberintroduction__description {
+      color: #053C76;
+      text-align: justify;
+      font-weight: bold;
+      padding: 10px 30px;
+      font-size: 1em;
+    } 
   }
-
+  @media only screen and (min-width: 720px) {
   .memberintroduction__title {
-    color: #000044;
-    text-align: center;
-    border: 8px  solid #97FFFF;
-    height: 30px;
-    margin: auto;
-    width: 30%;
-    padding: 20px 20px;
-
+      color: #053C76;
+      background: white;
+      text-align: center;
+      border: 10px  solid #D5EEFD;
+      height: 30px;
+      width: 17%;
+      padding: 24px 70px;
+      font-size: 1.5em;
+      font-weight: bold;
+      transform: translateY(-98%); 
+      content: "";
+      background-color: "#F3EF55";
+      margin: 0 auto;
+    }
+  
+    .memberintroduction__description {
+      color: #053C76;
+      text-align: center;
+      font-weight: bold;
+      padding: 10px;
+      font-size: 1em;
+    } 
   }
-
-  .memberintroduction__description {
-    color: #000044;
-    text-align: center;
-    font-weight: bold;
-  }
+   
+  
+   .memberintroduction {
+      padding-top: 50px;
+      padding-bottom: 100px;
+    }
+  
+    
+    
