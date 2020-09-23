@@ -5,10 +5,10 @@ export default function TableLikeListItem(props) {
   return (
     <React.Fragment>
       <div className="table-like-list-item">
-        <h1 className="table-like-list-item__title">{props.data.title}</h1>
-        <p className="table-like-list-item__description">
+        <div className="table-like-list-item__title">{props.data.title}</div>
+        <div className="table-like-list-item__description">
           {props.data.description}
-        </p>
+        </div>
       </div>
     </React.Fragment>
   );
