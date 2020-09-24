@@ -31,7 +31,7 @@ export const query = graphql`
           img {
             src {
               childImageSharp {
-                fluid(maxWidth: 300) {
+                fluid(maxWidth: 1920, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }
@@ -45,7 +45,7 @@ export const query = graphql`
         image {
           src {
             childImageSharp {
-              fluid(maxWidth: 1000) {
+              fluid(maxWidth: 1920, quality: 100) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -54,7 +54,7 @@ export const query = graphql`
         img {
           src {
             childImageSharp {
-              fluid(maxWidth: 1000) {
+              fluid(maxWidth: 1920, quality: 100) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -81,7 +81,7 @@ export const query = graphql`
             alt
             src {
               childImageSharp {
-                fluid(maxWidth: 300) {
+                fluid(maxWidth: 1920, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }
