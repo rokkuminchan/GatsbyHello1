@@ -2,7 +2,8 @@ import styled from '@emotion/styled'
 import {mq} from "../../helper/mediaQuery.js"
 export const Wrapper = styled.div({
     width: "100vw",
-    overflow: "hidden"
+    overflow: "hidden",
+    
 })
 
 export const Container = styled.div({
@@ -14,48 +15,59 @@ export const UniversitiesList = styled.div({
     display: "grid",
     gridTemplateAreas: `"list bookmark"`,
     gridTemplateColumns: `1fr 0.1fr`,
+    gridAutoRows: "1fr",
+    position: "relative"
 })
 
 export const Row = styled.div({
-        gridArea: "list"
+    gridArea: "list",
 })
 
 export const BookmarkList = styled.div({
     gridArea: "bookmark",
-    position: "relative",
+    '& div': {
+        position: "relative",
+        display: "flex",
+    }
 })
 
 export const Bookmark = styled.div(props => ({
     position: "absolute",
     width: "2px",
-    height: "50vh",
     display: "flex",
     flexDirection: "column",
     alignSelf: "center",
-    right: props.inner ? "30px" : "70px",
-    top: "10vh",
-    [mq[2]]: {
-        right: props.inner ? "30px" : "60px",
+    right: props.inner ? "-45%" : "-75%",
+    top: "20%",
+    [mq[0]]: {
+        right: props.inner ? "-10%" : "-70%",
     },
     '&::before': {
         position: "absolute",
         left: "1px",
-        top: "230px",
+        top: "250px",
         content: `''`,
         width: "1px",
-        height: props.inner ? "170px": "100px",
+        height: props.inner ? "100px": "170px",
         background: "#fff",
-      
+        [mq[2]]: {
+            top: "190px",
+        },
+        [mq[0]]: {
+            top: "160px",
+            height: props.inner ? "70px": "120px",
+        },
         },
     '& span': {
         marginBottom: "25px",
-        fontWeight: 700,
-        fontSize: "15px",
+        fontWeight: 600,
+        fontSize: "1em",
         color: "#fff",
         transform: `rotate(90deg)`,
         [mq[2]]: {
-            marginBottom: "15px",
-            fontSize: "10px",
+            marginBottom: "10px",
+            fontSize: "0.8em",
+            fontWeight: 400,
         },
     }
 }))
