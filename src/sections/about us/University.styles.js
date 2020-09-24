@@ -7,6 +7,11 @@ export const UniversityInner = styled.div(props => ({
     alignItems: "center",
     gridTemplateAreas: props.index%2 === 0 ? `"image text"` : `"text image"`,
     gridTemplateColumns: "1.3fr 1fr",
+    gridAutoRows: `minmax(1fr max-content)`,
+    marginBottom: "100px",
+    [mq[3]]: {
+        marginBottom: "150px",
+     },
      [mq[2]]: {
         alignItems: "start",
         gridTemplateAreas: `"image" "text"`,
@@ -20,7 +25,7 @@ export const UniversityInner = styled.div(props => ({
         marginBottom: "150px",
      },
      [mq[0]]: {
-        gridGap: "190px",
+        gridGap: "170px",
         marginBottom: "190px",
      },
      
@@ -50,6 +55,12 @@ export const UniversityImageInner = styled.div(props => ({
          objectFit: "cover",
          borderRadius: props.index%2 === 0 ? "25px 0 0 25px" : "0 25px 25px 0",
          [mq[2]]: {
+            width: "60%",
+            height: props.index%2 === 0 ? "60%": "60%",
+            left: props.index%2 === 0 ? "60%" : "50%",
+            transform: props.index%2 === 0 ? `translate(-55% ,60%)` : `translate(-45% ,70%)`,
+        },
+        [mq[0]]: {
             width: "60%",
             height: props.index%2 === 0 ? "60%": "60%",
             left: props.index%2 === 0 ? "60%" : "50%",
@@ -103,13 +114,19 @@ export const UniversityContent = styled.div(props => ({
          position: "absolute",
          paddingTop: "150px",
          top: "50%",
-         left: props.index%2 === 0 ? "35%" : "65%",
+         left: props.index%2 === 0 ? "40%" : "65%",
          transform: `translate(-50%,-50%)`,
-         width: props.index%2 === 0 ? "100%" : "90%",
+         width: props.index%2 === 0 ? "120%" : "90%",
          [mq[2]]: {
              left: "50%",
              width: "90%",
              padding: 0,
          },
+         [mq[1]]: {
+            transform: `translate(-50%,-75%)`,
+        },
+         [mq[0]]: {
+            transform: `translate(-50%,-65%)`,
+        },
      }
  }))
