@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "-": "0.0.1",
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@types/react": "^16.9.49",
@@ -24,7 +25,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "surge": "^0.21.6"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.4",

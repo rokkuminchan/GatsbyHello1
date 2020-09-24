@@ -55,21 +55,22 @@
 
   .philosophy__value-list {
     height: 140px;
-    margin: 0px auto;
-    width: 100%;
+    margin: 10px auto;
+    width: 90%;
     padding-bottom: 50px;
     padding-top: 5px;
   }
 
   .table-like-list-item{
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-
+    flex-direction: column;
+    margin: 5px auto;
+    width: 70%;
   }
 
   .round-title-list-item{
     width: 100%;
+    padding: 10px;
+    
   }
 
 }
@@ -79,7 +80,7 @@
     height: 200px;
     width: 80%;
     padding-bottom: 150px;
-    padding-top: 50px;
+    padding-top: 70px;
   }
 
   .philosophy__title {
@@ -91,13 +92,13 @@
   .philosophy__mindset-list {
     background-size: 100% 200%;
     background-position-y: bottom;
-    height: 350px;
+    height:250px;
     justify-content: center;
   }
 
   .table-like-list-item{
     justify-content: center;
-    padding: 5%;
+    padding: 3%;
 
   }
 
