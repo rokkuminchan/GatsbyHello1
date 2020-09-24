@@ -3,12 +3,14 @@ import {mq} from "../helper/mediaQuery"
 
 export const Title = styled.span({
     display: "flex",
-    alignItems: "center",
+    alignItems: "flex-start",
     color: "#fff",
      '& svg': {
          marginRight: "10px",
      },
      '& p': {
+        margin: "0 0 15px 0",
+        padding: 0,
          fontSize: "1.2em",
          fontWeight: 520,
          letterSpacing: "2px",
@@ -21,12 +23,13 @@ export const Title = styled.span({
  export const Subtitle = styled.div({
      textAlign: "left",
      color: "#fff",
-     marginBottom: "14px",
      '& p': {
+        margin: "0 0 15px 0",
+        padding: 0,
          fontSize: "1em",
          fontWeight: 400,
          letterSpacing: "1px",
-         lineHeight: 2,
+         lineHeight: 1.7,
          textAlign: "justify",
          [mq[2]]: {
             fontSize: "0.8em",

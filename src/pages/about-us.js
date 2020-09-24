@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Philosophy from "../sections/Philosophy"
+import UniversityIntroduction from "../sections/about us/UniversityIntroduction"
 import UniversityList from "../sections/about us/UniversityList"
 import MemberIntroduction from "../sections/MemberIntroduction"
 import SEO from "../components/seo"
@@ -11,6 +12,7 @@ const AboutUsPage = ({ data }) => {
     <Layout>
       <SEO title="World's team" />
       <Philosophy data={data.ourTeamJson.philosophy} />
+      <UniversityIntroduction data={data.ourTeamJson.university} />
       <UniversityList data={data.ourTeamJson.university} />
       <MemberIntroduction data={data.ourTeamJson.memberIntroduction} />
     </Layout>
@@ -43,6 +45,7 @@ export const query = graphql`
         introduction {
           description
           title
+          subtitle
         }
         universityItems {
           color
