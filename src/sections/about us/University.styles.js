@@ -7,8 +7,7 @@ export const UniversityInner = styled.div(props => ({
     alignItems: "center",
     gridTemplateAreas: props.index%2 === 0 ? `"image text"` : `"text image"`,
     gridTemplateColumns: "1.3fr 1fr",
-    gridAutoRows: `minmax(1fr max-content)`,
-    marginBottom: "100px",
+    gridAutoRows: `minmax(1fr min-content)`,
     [mq[3]]: {
         marginBottom: "150px",
      },
@@ -23,10 +22,6 @@ export const UniversityInner = styled.div(props => ({
      [mq[1]]: {
         gridGap: "150px",
         marginBottom: "150px",
-     },
-     [mq[0]]: {
-        gridGap: "170px",
-        marginBottom: "190px",
      },
      
  }))
@@ -115,7 +110,7 @@ export const UniversityContent = styled.div(props => ({
          paddingTop: "150px",
          top: "50%",
          left: props.index%2 === 0 ? "40%" : "65%",
-         transform: `translate(-50%,-50%)`,
+         transform: `translate(-50%,-62%)`,
          width: props.index%2 === 0 ? "120%" : "90%",
          [mq[2]]: {
              left: "50%",

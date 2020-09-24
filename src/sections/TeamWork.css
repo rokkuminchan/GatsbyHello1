@@ -35,7 +35,7 @@
 }
 
 /* Extra Small Devices, Phones */
-/* @media only screen and (max-width: 550px)  {
+@media only screen and (max-width: 550px)  {
   .teamwork__title {
     padding-top:60px;
     color: white;
@@ -72,4 +72,5 @@
       height: 20%;
       transform: translate(-113%,50%);
     }
- */
+
+  }

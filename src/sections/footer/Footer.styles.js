@@ -118,10 +118,14 @@ export const Center = styled.div({
         fontWeight: 600,
         letterSpacing: "2px",
         color: "#fff",
+        [mq[2]]: {
+            fontSize: "1.5em",
+        },
     },
     '& div:last-of-type': {
         display: "flex",
         flexDirection: "column",
+        alignItems: "center",
         [mq[2]]: {
             display: "none"
         },
@@ -155,6 +159,7 @@ export const Right = styled.div({
         [mq[2]]: {
             position: "relative",
             width: "100%",
+            fontSize: "1em",
         },    
         '&:before':{
             display: "none",
@@ -175,7 +180,7 @@ export const Right = styled.div({
         fontSize: "2.1em",
         fontWeight: 600,
         [mq[2]]: {
-            fontSize: "1.7em",
+            fontSize: "1em",
             fontWeight: 500,
             letterSpacing: "2px",
         },
@@ -184,14 +189,14 @@ export const Right = styled.div({
 
 export const Copyright = styled.div({
     gridArea: "copyright",
-    fontSize: "1.3em",
+    fontSize: "1em",
     fontWeight: 600,
     color: "#fff",
     textAlign: "center",
     marginBottom: 0,
     [mq[2]]: {
         padding: "0 24px",
-        marginBottom: "5vh",
         lineHeight: 2,
+        fontSize: "0.8em",
     },
 })

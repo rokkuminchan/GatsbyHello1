@@ -23,13 +23,14 @@ export const Title = styled.div({
         fontWeight: 700,
         position: "relative",
         zIndex: 1,
+        marginBottom: 0,
         [mq[0]]: {
             fontSize: "20px",
         },
         '&::before': {
             display: "block",
             position: "absolute",
-            bottom: "0%",
+            bottom: "-25%",
             left: "-10%",
             content: `''`,
             width: "120%",
@@ -48,7 +49,6 @@ export const Description = styled.div({
     color: "#fff",
     width: "60%",
     margin: "0 auto",
-    marginBottom: "50px",
     '& p': {
         fontSize: "1em",
         fontWeight: 500,
