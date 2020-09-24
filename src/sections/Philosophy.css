@@ -16,7 +16,7 @@
   color: white;
   height: 200px;
   margin: auto;
-  width: 60%;
+  width: 50%;
   padding-bottom: 60px;
   padding-top: 45px;
 }
@@ -60,6 +60,30 @@
     padding-bottom: 100px;
     padding-top: 5px;
   }
+
+  .table-like-list-item__description{
+    position: absolute;
+    left: 95px;
+    padding-top: 25px;
+    
+  }
+
+  .table-like-list-item__title{
+    position: absolute;
+    left: 0;
+    width: 70px;
+    /* margin-top: 100px; */
+    padding: 60px;
+  }
+
+    .round-title-list-item{
+      width: 100%;
+    }
+
+    .table-like-list-item{
+      width: 100%;
+      justify-content: center;
+    }
 }
 
 @media only screen and (min-width: 800px) {
@@ -82,4 +106,18 @@
     height: 350px;
     justify-content: center;
   }
+
+  .table-like-list-item__description{
+    position: absolute;
+    left: 400px;
+  }
+
+  .table-like-list-item__title{
+    width: 70px;
+  }
+
+    .round-title-list-item{
+      width: 100%;
+    }
+
 }
