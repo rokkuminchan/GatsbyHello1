@@ -48,9 +48,7 @@ function Fotter() {
         </div>
         <span>株式会社ワールド</span>
         <div>
-          <p>〒500-8856</p>
-          <p>岐阜県岐阜市橋本町2-8</p>
-          <p>濃飛ニッセイビル6階</p>
+          <p>〒500-8856&nbsp;&nbsp;岐阜県岐阜市橋本町2-8&nbsp;&nbsp;濃飛ニッセイビル6階</p>
           <p>TEL 058-255-3066</p>
           <p>FAX 058-255-3633</p>
         </div>
@@ -63,8 +61,8 @@ function Fotter() {
       </Right>
       <Copyright>
         <p>
-          Copyright &copy;
-          愛知・岐阜・三重の人材派遣や業務請負など総合人材サービスはワールドグループ
+          Copyright&nbsp;&copy;&nbsp;
+          愛知・岐阜・三重の人材派遣や業務請負など総合人材サービスはワールドグループ&nbsp;
           AllRights Reserved
         </p>
       </Copyright>

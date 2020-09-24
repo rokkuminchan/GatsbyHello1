@@ -20,11 +20,11 @@ function Header({ history }) {
     </ToggleButton>
   )
   const items = [
-    { id: "/", name: "Home" },
-    { id: "/service", name: "Services" },
-    { id: "/technology", name: "Technology" },
-    { id: "/contact", name: "Contact" },
-    { id: "/about-us", name: "About us" },
+    { id: "/", name: "ホーム" },
+    { id: "/service", name: "サービス" },
+    { id: "/technology", name: "技術" },
+    { id: "/contact", name: "お問合せ" },
+    { id: "/about-us", name: "我々について" },
   ]
   const NavLinkItem = props => {
     const { id, name } = props.item

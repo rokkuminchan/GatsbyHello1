@@ -8,22 +8,22 @@ export const UniversityInner = styled.div(props => ({
     gridTemplateAreas: props.index%2 === 0 ? `"image text"` : `"text image"`,
     gridTemplateColumns: "1.3fr 1fr",
     gridAutoRows: `minmax(1fr min-content)`,
-    [mq[3]]: {
-        marginBottom: "150px",
-     },
-     [mq[2]]: {
+    marginBottom: 0,
+    [mq[2]]: {
         alignItems: "start",
         gridTemplateAreas: `"image" "text"`,
         gridTemplateColumns: "1fr",
         gridAutoRows: 'minmax(1fr, max-content)',
         gridGap: "80px",
-        marginBottom: "250px",
-     },
-     [mq[1]]: {
-        gridGap: "150px",
         marginBottom: "150px",
-     },
-     
+    },
+    [mq[1]]: {
+        gridGap: "150px",
+        marginBottom: "100px",
+    },
+    [mq[0]]: {
+        marginBottom: "130px",
+    },
  }))
  
 export const UniversityImage = styled.div({

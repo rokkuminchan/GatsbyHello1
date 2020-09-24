@@ -7,7 +7,7 @@ export const Wrapper = styled.div({
     height: "90vh",
     width: "100vw",
     backgroundColor: `rgba(10,34,93,1)`,
-    gridTemplateColumns: `1.5fr 3fr 1.5fr`,
+    gridTemplateColumns: `1fr 3fr 1fr`,
     gridTemplateRows: `10fr 1fr`,
     gridTemplateAreas: `
         "left center right"
@@ -67,7 +67,7 @@ export const Left = styled.div({
         right: 0,
         content: `''`,
         width: "1px",
-        height: "20vh",
+        height: "30vh",
         transform: `translateY(-50%)`,
         backgroundColor: "#fff",
         
@@ -76,8 +76,8 @@ export const Left = styled.div({
         marginBottom: "5vh",
     },
     '& span:first-of-type': {
-        fontSize: "2.1em",
-        fontWeight: 600,
+        fontSize: "1.5em",
+        fontWeight: 500,
         letterSpacing: "2px",
         color: "#fff",
         [mq[2]]: {
@@ -91,7 +91,7 @@ export const Center = styled.div({
     display: "flex",
     position: "relative",
     flexDirection: "column",
-    justifyContent: "space-evenly",
+    justifyContent: "center",
     alignItems: "center",
     [mq[2]]: {
         justifyContent: "center",
@@ -103,7 +103,7 @@ export const Center = styled.div({
         right: 0,
         content: `''`,
         width: "1px",
-        height: "20vh",
+        height: "30vh",
         transform: `translateY(-50%)`,
         backgroundColor: "#fff"
     },
@@ -114,10 +114,11 @@ export const Center = styled.div({
         },
     },
     '& span:nth-of-type(1)': {
-        fontSize: "2.1em",
+        fontSize: "1.5em",
         fontWeight: 600,
         letterSpacing: "2px",
         color: "#fff",
+        marginBottom: "100px",
         [mq[2]]: {
             fontSize: "1.5em",
         },
@@ -130,11 +131,10 @@ export const Center = styled.div({
             display: "none"
         },
         '& p': {
-            fontSize: "1.3em",
+            fontSize: "1em",
             fontWeight: 600,
             letterSpacing: "2px",
             color: "#fff",
-            paddingBottom: "7px"
         }
     },
 })
@@ -152,7 +152,7 @@ export const Right = styled.div({
     },
     '&>*':{
         marginBottom: "5vh",
-        fontSize: "1.7em",
+        fontSize: "1.5em",
         fontWeight: 500,
         letterSpacing: "2px",
         color: "#fff",
@@ -177,11 +177,10 @@ export const Right = styled.div({
         }
     },
     '& span:first-of-type': {
-        fontSize: "2.1em",
-        fontWeight: 600,
+        fontSize: "1.5em",
+        fontWeight: 500,
         [mq[2]]: {
             fontSize: "1em",
-            fontWeight: 500,
             letterSpacing: "2px",
         },
     }
@@ -193,10 +192,12 @@ export const Copyright = styled.div({
     fontWeight: 600,
     color: "#fff",
     textAlign: "center",
-    marginBottom: 0,
     [mq[2]]: {
         padding: "0 24px",
         lineHeight: 2,
         fontSize: "0.8em",
     },
+    '& p': {
+        marginBottom: 0,
+    }
 })
