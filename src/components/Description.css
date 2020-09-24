@@ -1,0 +1,51 @@
+ .description{
+    padding-top: 15px;
+ }
+ .description__title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+  }
+  
+  .description__subtitle {
+    font-size: 0.9em;
+    color: white;
+    text-align: left;
+    padding-left: 85px;
+  }
+  /* Extra Small Devices, Phones */
+  @media only screen and (max-width: 550px)  { 
+  .description__title {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+  }
+  
+  .description__subtitle {
+    font-size: 14px;
+    color: white;
+    text-align: justify;
+    width: auto;
+    padding-left:20px;   
+    padding-right:20px; 
+  }
+}
+@media  (min-width: 551px) and (max-width:1024px ) {
+  .description__title {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
+  
+  .description__subtitle {
+    font-size: 14px;
+    color: white;
+    text-align: left;
+    width: auto;
+    padding-left:20px;   
+    padding-right:20px;
+  }
+}
