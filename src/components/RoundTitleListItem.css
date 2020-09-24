@@ -10,7 +10,7 @@
   line-height: 160px;
   border-radius: 50%;
   text-align: center;
-  border: 2px solid #666;
+  border: 0;
   font-size: 24px;
   background-color: green;
 }

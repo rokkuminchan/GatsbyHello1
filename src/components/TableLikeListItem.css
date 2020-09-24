@@ -21,7 +21,7 @@
   .table-like-list-item {
     flex-direction: column;
     margin: 5px auto;
-    width: 50%;
+    width: 70%;
   }
 
   .table-like-list-item__title {
