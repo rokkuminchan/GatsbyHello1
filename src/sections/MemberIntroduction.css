@@ -4,14 +4,25 @@
     background: white;
     text-align: center;
     border: 10px solid #d5eefd;
-    height: 30px;
+    height: 25px;
     width: 60%;
     padding: 24px 10px;
     font-size: 1.5em;
     font-weight: bold;
     transform: translateY(-100%);
-    background-color: "#F3EF55";
     margin: 0 auto;
+  }
+  .memberintroduction__title:before {
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    left: 15%;
+    content: '';
+    width: 70%;
+    height: 15px;
+    transform: translateY(-150%);
+    background-color: #F3EF55;
+    z-index: -1;
   }
 
   .memberintroduction__description {
@@ -33,16 +44,28 @@
     background: white;
     text-align: center;
     border: 10px solid #d5eefd;
-    height: 30px;
-    width: 17%;
+    height: 25px;
+    width: 15%;
     padding: 24px 70px;
     font-size: 1.5em;
     font-weight: bold;
     transform: translateY(-98%);
     content: "";
-    background-color: "#F3EF55";
     margin: 0 auto;
-  }
+    position: relative;
+    }
+    .memberintroduction__title:before {
+      display: block;
+      position: absolute;
+      bottom: 0%;
+      left: 20%;
+      content: '';
+      width: 60%;
+      height: 15px;
+      transform: translateY(-150%);
+      background-color: #F3EF55;
+      z-index: -1;
+    }
 
   .memberintroduction__description {
     color: #053c76;
@@ -61,4 +84,7 @@
 .memberintroduction {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+h1 {
+  position: relative;
 }
