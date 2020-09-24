@@ -60,7 +60,7 @@ function BackgroundImageSlider() {
         {images.map((image, index) => {
           return (
             <Image key={index}>
-              <img src={image}></img>
+              <img src={image} alt=""></img>
             </Image>
           )
         })}

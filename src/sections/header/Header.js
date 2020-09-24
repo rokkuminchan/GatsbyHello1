@@ -80,8 +80,8 @@ function Header({ history }) {
         <section>
           <Wrapper>
             <Logo>
-              <a href="#">
-                <img src={World}></img>
+              <a href="/">
+                <img src={World} alt=""></img>
               </a>
             </Logo>
             <IconButton disabled={disabled} onClick={handleMenu}>
