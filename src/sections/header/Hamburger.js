@@ -11,11 +11,11 @@ import {
 } from "./Hamburger.styles"
 
 const items = [
-  { id: "/", name: "Home" },
-  { id: "/service", name: "Services" },
-  { id: "/technology", name: "Technology" },
-  { id: "/contact", name: "Contact" },
-  { id: "/about", name: "About us" },
+  { id: "/", name: "ホーム" },
+  { id: "/service", name: "サービス" },
+  { id: "/technology", name: "技術" },
+  { id: "/contact", name: "お問合せ" },
+  { id: "/about", name: "我々について" },
 ]
 
 function Hamburger({ state }) {

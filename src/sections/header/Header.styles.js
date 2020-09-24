@@ -13,6 +13,7 @@ export const Wrapper = styled.header({
   width: "100vw",
   boxSizing: "border-box",
   background: `rgba(0,0,0,.3)`,
+  
   "& nav": {
     [mq[2]]: {
       display: "none",
@@ -62,6 +63,11 @@ export const Logo = styled.div({
   [mq[2]]: {
     margin: "10px 10px 0 10px",
   },
+  '& a': {
+    '& img': {
+      marginBottom: 0,
+    }
+  }
 })
 export const ToggleButton = styled.div({
   "& svg": {

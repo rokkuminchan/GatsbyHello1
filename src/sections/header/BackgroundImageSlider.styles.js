@@ -7,6 +7,7 @@ export const ImageList = styled.ul({
     paddingBottom: "66.25%",
     overflow: "hidden",  
     marginLeft: 0, 
+    marginBottom: 0,
 })
 export const Image = styled.div({
     position: "absolute",
