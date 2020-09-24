@@ -1,5 +1,4 @@
-import React, { useRef, useEffect } from "react"
-import { gsap } from "gsap"
+import React from "react"
 import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa"
 import Logo from "../../images/logo.png"
 import { Wrapper, Shape, Left, Center, Right, Copyright } from "./Footer.styles"
@@ -43,8 +42,8 @@ function Fotter() {
       </Left>
       <Center>
         <div>
-          <a href="#">
-            <img src={Logo}></img>
+          <a href="/">
+            <img src={Logo} alt=""></img>
           </a>
         </div>
         <span>株式会社ワールド</span>

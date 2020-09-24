@@ -1,11 +1,12 @@
-.philosophy {
+/* .philosophy {
   background-color: rgb(1, 17, 32);
   padding-top: 15px;
   padding-bottom: 15px;
-}
+} */
 
 .philosophy__title {
   color: white;
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -15,7 +16,7 @@
   color: white;
   height: 200px;
   margin: auto;
-  width: 60%;
+  width: 50%;
   padding-bottom: 60px;
   padding-top: 45px;
 }
@@ -24,7 +25,7 @@
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(0deg, rgb(6 6 6 / 72%), rgb(21 12 12 / 75%)),
-    url(../images/philosophy-bg.jpg);
+    url(../images/philosophy-image-change.jpeg);
   background-size: 100% 200%;
   height: 300px;
   font-size: 1.2rem;
@@ -47,7 +48,7 @@
   }
 
   .philosophy__mindset-list {
-    background-size: 74% auto;
+    background-size:  100% 100%;
     height: 170px;
     justify-content: center;
   }
@@ -55,18 +56,30 @@
   .philosophy__value-list {
     height: 140px;
     margin: 0px auto;
-    width: 95%;
-    padding-bottom: 0px;
+    width: 100%;
+    padding-bottom: 50px;
     padding-top: 5px;
   }
+
+  .table-like-list-item{
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .round-title-list-item{
+    width: 100%;
+  }
+
 }
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 800px) {
   .philosophy__value-list {
     height: 200px;
     width: 80%;
-    padding-bottom: 0px;
-    padding-top: 30px;
+    padding-bottom: 150px;
+    padding-top: 50px;
   }
 
   .philosophy__title {
@@ -81,4 +94,38 @@
     height: 350px;
     justify-content: center;
   }
+
+  .table-like-list-item{
+    justify-content: center;
+    padding: 5%;
+
+  }
+
+  .table-like-list-item__description{
+    position: absolute;
+    left: 400px;
+  }
+
+  .table-like-list-item__title{
+    width: 70px;
+    position: absolute;
+    left: 300px;
+  }
+
+  .round-title-list-item{
+    height: 250px;
+  }
+
+  .round-title-list-item__title--greenbg{
+    margin-bottom: 30px;
+  }
+
+  .round-title-list-item__title--bluebg{
+    margin-bottom: 30px;
+  }
+
+  .round-title-list-item__title--redbg{
+    margin-bottom: 30px;
+  }
+
 }
