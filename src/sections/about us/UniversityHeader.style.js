@@ -99,7 +99,7 @@ export const Content = styled.div({
         bottom:"40px"
     },
    '& p': {
-       width: "60%",
+       width: "80%",
        margin: "auto",
        color: "#fff",
        textAlign: "justify",
@@ -139,7 +139,7 @@ export const Background1 = styled.div({
 export const Background2 = styled.div({
     gridArea: "background2",
     background: "#0c625e",
-    [mq[0,1]]: {
+    [mq[1]]: {
       
     }
 })
@@ -147,21 +147,22 @@ export const Background2 = styled.div({
 export const Image = styled.div({
     gridRow: `background1-start / background2-end`,
     gridColumn: `background1-start / background2-end`,
-    width: "70%",
+    width: "80%",
     position: "relative",
     paddingBottom: "50%",
     overflow: "hidden",
     top: "15%",
-    left:"15%",
+    left:"10%",
     marginBottom:"0",
     objectFit:"cover",
     [mq[1]]: {
         top:"25%"
     },
     [mq[2]]: {
-        paddingBottom:"30%"
+        paddingBottom:"30%",
+        
     },
-    // [mq[3]]: {
-    //     top:"20%",
-    // },
+    [mq[0]]: {
+        top:"18%",
+    },
 })
