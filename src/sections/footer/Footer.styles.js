@@ -170,7 +170,7 @@ export const Right = styled.div({
                 display: "block",
                 position: "absolute",
                 bottom: "-5px",
-                left: "-5vw",
+                left: "-9vw",
                 content: `''`,
                 width: "100vw",
                 height: "1px",
