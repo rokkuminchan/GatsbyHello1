@@ -11,6 +11,8 @@
     font-weight: bold;
     transform: translateY(-115%);
     margin: 0 auto;
+    position: relative;
+
   }
   
   .memberintroduction__title:before {
@@ -20,7 +22,7 @@
     left: 15%;
     content: '';
     width: 70%;
-    height: 12px;
+    height: 11px;
     transform: translateY(-130%);
     background-color: #F3EF55;
     z-index: -1;
@@ -38,6 +40,7 @@
     padding: 5px 30px;
     transform: translateY(-2%);
   }
+ 
 }
 @media only screen and (min-width: 720px) {
   .memberintroduction__title {
@@ -46,11 +49,11 @@
     text-align: center;
     border: 10px solid #d5eefd;
     height: 25px;
-    width: 10%;
+    width: 11%;
     padding: 24px 70px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: bold;
-    transform: translateY(-98%);
+    transform: translateY(-105%);
     content: "";
     margin: 0 auto;
     position: relative;
@@ -59,11 +62,11 @@
       display: block;
       position: absolute;
       bottom: 0%;
-      left: 20%;
+      left: 23%;
       content: '';
-      width: 60%;
-      height: 15px;
-      transform: translateY(-150%);
+      width: 54%;
+      height: 11px;
+      transform: translateY(-240%);
       background-color: #F3EF55;
       z-index: -1;
     }
