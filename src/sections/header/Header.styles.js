@@ -59,7 +59,7 @@ export const Wrapper = styled.header({
   },
 })
 export const Logo = styled.div({
-  margin: "10px 0 0px -80px",
+  margin: "15px 0 0px -80px",
   [mq[2]]: {
     margin: "10px 10px 0 10px",
   },

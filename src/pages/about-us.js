@@ -73,6 +73,7 @@ export const query = graphql`
      university {
       introduction {
         description
+        subtitle
         title
         img {
           alt

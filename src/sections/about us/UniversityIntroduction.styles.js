@@ -55,6 +55,7 @@ export const Description = styled.div({
         letterSpacing: "3px",
         lineHeight: 2,
         margin: "24px 0",
+        textAlign: "justify",
         [mq[2]]: {
             fontSize: "0.8em",
         },
