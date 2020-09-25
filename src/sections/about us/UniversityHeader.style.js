@@ -8,7 +8,7 @@ export const Wrapper = styled.div({
         "logo background1"
         "content background2"
    `,
-   gridTemplateColumns: "1.2fr 1.7fr",
+   gridTemplateColumns: "1.3fr 1.5fr",
    gridTemplateRows: "0.3fr 0.7fr",
    fontSize: "16px",
    fontWeight: 700,
@@ -99,7 +99,7 @@ export const Content = styled.div({
         bottom:"40px"
     },
    '& p': {
-       width: "80%",
+       width: "70%",
        margin: "auto",
        color: "#fff",
        textAlign: "justify",
@@ -152,15 +152,16 @@ export const Image = styled.div({
     paddingBottom: "50%",
     overflow: "hidden",
     top: "15%",
-    left:"10%",
+    left:"15%",
     marginBottom:"0",
     objectFit:"cover",
     [mq[1]]: {
         top:"25%",
         width: "80%",
+        left:"10%"
     },
     [mq[2]]: {
-        paddingBottom:"30%",
+        paddingBottom:"40%",
     },
     [mq[0]]: {
         top:"18%",
