@@ -49,6 +49,9 @@ export const Description = styled.div({
     color: "#fff",
     width: "60%",
     margin: "0 auto",
+    [mq[2]]: {
+        width: "80%",
+    },
     '& p': {
         fontSize: "1em",
         fontWeight: 500,
