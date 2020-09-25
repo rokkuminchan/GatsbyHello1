@@ -3,6 +3,7 @@ import {Wrapper, Title, Description} from "./UniversityIntroduction.styles"
 
 const UniversityIntroduction = (props) => {
     const {subtitle, description} = props.data.introduction
+    console.log(subtitle);
     return (
         <Wrapper>
             <Title><h1>{subtitle}</h1></Title>

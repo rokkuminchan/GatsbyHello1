@@ -9,6 +9,9 @@ export const UniversityInner = styled.div(props => ({
     gridTemplateColumns: "1.3fr 1fr",
     gridAutoRows: `minmax(1fr min-content)`,
     marginBottom: 0,
+    [mq[3]]: {
+        marginBottom: "100px",
+    },
     [mq[2]]: {
         alignItems: "start",
         gridTemplateAreas: `"image" "text"`,

@@ -21,6 +21,13 @@ export const UniversitiesList = styled.div({
 
 export const Row = styled.div({
     gridArea: "list",
+    '& > div:last-of-type': {
+        marginBottom: 0,
+        [mq[2]]: {
+            marginBottom: "200px",
+        },
+        
+    }
 })
 
 export const BookmarkList = styled.div({

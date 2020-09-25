@@ -64,7 +64,7 @@
     margin: auto;
     width: 90%;
     padding-top: 6%;
-    padding-bottom: 28%;
+    padding-bottom: 26%;
   }
 
   .table-like-list-item{
@@ -105,14 +105,15 @@
 
   .table-like-list-item__description{
     position: absolute;
-    left: 400px;
+    padding-top: 3px;
+    left: 25%;
   }
 
   .table-like-list-item__title{
     font-size: 1,5em;
     width: 120px;
     position: absolute;
-    left: 250px;
+    left: 10%;
   }
 
   .round-title-list-item{
