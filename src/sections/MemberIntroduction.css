@@ -34,11 +34,11 @@
     font-weight: bold;
     padding: 10px 30px;
     font-size: 1em;
-    transform: translateY(-75%);
+    transform: translateY(-50%);
   }
   .memberintroduction__member-list {
     padding: 5px 30px;
-    transform: translateY(-2%);
+    transform: translateY(-1.2%);
   }
 }
 @media only screen and (min-width: 720px) {
@@ -80,12 +80,11 @@
   }
   .memberintroduction__member-list {
     padding: 5px 30px;
-    transform: translateY(-3%);
+    transform: translateY(-2.5%);
   }
 }
 .memberintroduction {
   padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 h1 {
