@@ -147,7 +147,7 @@ export const Background2 = styled.div({
 export const Image = styled.div({
     gridRow: `background1-start / background2-end`,
     gridColumn: `background1-start / background2-end`,
-    width: "80%",
+    width: "70%",
     position: "relative",
     paddingBottom: "50%",
     overflow: "hidden",
@@ -156,13 +156,16 @@ export const Image = styled.div({
     marginBottom:"0",
     objectFit:"cover",
     [mq[1]]: {
-        top:"25%"
+        top:"25%",
+        width: "80%",
     },
     [mq[2]]: {
         paddingBottom:"30%",
-        
     },
     [mq[0]]: {
         top:"18%",
+    },
+    [mq[3]]: {
+        top:"20%",
     },
 })
