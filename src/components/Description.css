@@ -36,6 +36,7 @@
   .description__subtitle{
     padding: 0 55px;
     margin-bottom: 10px;
+    text-align: justify;
   }
 }
 
@@ -45,6 +46,7 @@
  }
  .description__subtitle{
   padding: 0 30px;
+  text-align: justify;
   }
 }
 
