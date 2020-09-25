@@ -11,10 +11,10 @@
 }
 
 .description__subtitle {
-  font-size: 0.8em;
+  font-size: 1em;
   color: white;
   text-align: left;
-  padding: 0 85px;
+  padding: 0 85px; 
   font-weight: 300;
   word-break: break-word;
 }
@@ -34,8 +34,10 @@
     font-size: 1em;
   }
   .description__subtitle{
+    font-size: 0.8em;
     padding: 0 55px;
     margin-bottom: 10px;
+    text-align: justify;
   }
 }
 
@@ -45,6 +47,7 @@
  }
  .description__subtitle{
   padding: 0 30px;
+  text-align: justify;
   }
 }
 
