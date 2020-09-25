@@ -6,7 +6,7 @@
 
 .philosophy__title {
   height: 40px;
-  padding-top: 8%;
+  padding-top: 3%;
   color: white;
   text-align: center;
 }
@@ -106,14 +106,14 @@
   .table-like-list-item__description{
     position: absolute;
     padding-top: 3px;
-    left: 25%;
+    left: 30%;
   }
 
   .table-like-list-item__title{
     font-size: 1,5em;
     width: 120px;
     position: absolute;
-    left: 10%;
+    left: 15%;
   }
 
   .round-title-list-item{

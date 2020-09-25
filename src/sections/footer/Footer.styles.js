@@ -22,7 +22,7 @@ export const Wrapper = styled.div({
         "left"
         "copyright"
         `,
-        gridTemplateRows: `"1fr 1fr 1fr 0.8fr"`,
+        gridTemplateRows: `"1fr 5fr 1fr 0.8fr"`,
         gridTemplateColumns: "unset",
     }
 })
@@ -121,6 +121,7 @@ export const Center = styled.div({
         marginBottom: "100px",
         [mq[2]]: {
             fontSize: "1.5em",
+            marginBottom: 0,
         },
     },
     '& div:last-of-type': {
@@ -146,9 +147,11 @@ export const Right = styled.div({
     justifyContent: "center",
     alignItems: "center",
     paddingLeft: 0,
+    marginBottom: 0,
     [mq[2]]: {
         alignItems: "flex-start",
         paddingLeft: "5vh",
+        marginBottom: "30px",
     },
     '&>*':{
         marginBottom: "5vh",
@@ -167,7 +170,7 @@ export const Right = styled.div({
                 display: "block",
                 position: "absolute",
                 bottom: "-5px",
-                left: "-5vw",
+                left: "-9vw",
                 content: `''`,
                 width: "100vw",
                 height: "1px",
