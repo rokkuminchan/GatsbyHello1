@@ -12,6 +12,7 @@
     transform: translateY(-115%);
     margin: 0 auto;
   }
+  
   .memberintroduction__title:before {
     display: block;
     position: absolute;
