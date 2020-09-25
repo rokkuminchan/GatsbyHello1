@@ -24,3 +24,4 @@ const UniversityHeader = ({ data }) => {
   );
 }
 export default UniversityHeader;
+

@@ -3,7 +3,7 @@ import {mq} from "../../helper/mediaQuery.js"
 
 export const Wrapper = styled.div({
    display: "grid",
-   width: "100vw",
+//    width: "100vw",
    gridTemplateAreas: `
         "logo background1"
         "content background2"
@@ -12,7 +12,6 @@ export const Wrapper = styled.div({
    gridTemplateRows: "0.3fr 0.7fr",
    fontSize: "16px",
    fontWeight: 700,
-  
    [mq[1]]: {
         gridTemplateAreas: `
             "logo"
@@ -21,7 +20,7 @@ export const Wrapper = styled.div({
             "background2"
         `,
         gridTemplateColumns: "1fr",
-        gridTemplateRows: "0.1fr 0.1fr 1fr 1fr"
+        gridTemplateRows: "0.1fr 0.1fr 0.5fr 0.5fr"
     },
     [mq[2]]: {
         gridTemplateAreas: `
@@ -31,8 +30,9 @@ export const Wrapper = styled.div({
             "background2"
         `,
         gridTemplateColumns: "1fr",
-        gridTemplateRows: "0.1fr 0.1fr 0.7fr 1fr"
+        gridTemplateRows: "0.1fr 0.1fr 0.7fr 0.7fr"
     },
+
 })
 
 export const LogoInner = styled.div({
@@ -62,19 +62,17 @@ export const Logo = styled.div(props => ({
     top: props.upper ? "62%" : "70%",
     left: props.upper ? "50%" : "49%",
     transform: `translate(-50%, -50%)`,
+    [mq[1]]: {
+        fontSize:"3em"
+    },
     [mq[2]]: {
         top: props.upper ? "40%" : "52%",
         left: props.upper ? "50%" : "49%",
         fontSize:"4em"
     },
-    [mq[1]]: {
-        fontSize:"3em"
+    [mq[3]]: {
+        fontSize:"3em",
     },
-    // [mq[3]]: {
-    //     fontSize:"4em",
-    //     left: props.upper ? "55%" : "49%",
-    //     top: props.upper ? "75%" : "85%",
-    // },
     '& p': {
         textShadow: props.upper ? `
             -1px -1px 0 #C3C6C6,
@@ -95,19 +93,23 @@ export const Content = styled.div({
         background: "#f8fcff",
         height:"50%"
     },
+    [mq[0]]: {
+        background: "#f8fcff",
+        height:"70px",
+        bottom:"40px"
+    },
    '& p': {
        width: "60%",
        margin: "auto",
        color: "#fff",
        textAlign: "justify",
        position: "absolute",
-       top: "30%",
+       top: "40%",
        left: "50%",
        transform: `translate(-50%, -50%)`,
+       
     //    [mq[0]]: {
-    //     top:"50%",
-    //     fontSize:"1em",
-    
+    //     fontSize:"0.9em",
     //     },
        [mq[1]]: {
             color: "#17427A",
@@ -121,6 +123,9 @@ export const Content = styled.div({
             top: "100%",
             fontSize:"1em",
         },
+        [mq[3]]: {
+   
+        },
    }
 
 })
@@ -128,11 +133,15 @@ export const Content = styled.div({
 export const Background1 = styled.div({
    gridArea: "background1",
    background: "#f8fcff",
+   
 })
 
 export const Background2 = styled.div({
     gridArea: "background2",
     background: "#0c625e",
+    [mq[0,1]]: {
+      
+    }
 })
 
 export const Image = styled.div({
@@ -140,11 +149,19 @@ export const Image = styled.div({
     gridColumn: `background1-start / background2-end`,
     width: "70%",
     position: "relative",
-    paddingBottom: "60%",
+    paddingBottom: "50%",
     overflow: "hidden",
     top: "15%",
     left:"15%",
+    marginBottom:"0",
+    objectFit:"cover",
     [mq[1]]: {
-        top:"20%"
-    }
+        top:"25%"
+    },
+    [mq[2]]: {
+        paddingBottom:"30%"
+    },
+    // [mq[3]]: {
+    //     top:"20%",
+    // },
 })
