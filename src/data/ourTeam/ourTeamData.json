@@ -21,7 +21,7 @@
       {
         "title": "文化の壁",
         "css": "round-title-list-item__title--bluebg",
-        "description": "日本の文化を理解し、尊重する。"
+        "description": "日本の文化を理解し、尊重し、保存する。"
       },
       {
         "title": "業務の壁",
@@ -141,7 +141,10 @@
         "ワールドのITチームでは、ベトナムのトップレベル大学とMOUを締結するとともに、情報処理系学部の卒業生たちを採用しています。",
         "ITチームのメンバーの卒業大学をご紹介します。"
       ],
-      "img": { "src": "../../images/tree.jpg", "alt": "tree" }
+      "img": {
+        "src": "../../images/tree.jpg",
+        "alt": "tree"
+      }
     },
     "universityItems": [
       {
@@ -149,7 +152,9 @@
         "description": [
           {
             "title": "経歴",
-            "subtitle": ["1956 創立"]
+            "subtitle": [
+              "1956 創立"
+            ]
           },
           {
             "title": "特徴",
@@ -171,14 +176,19 @@
           "alt": "Bach khoa HN"
         },
         "link": "https://hust.edu.vn/",
-        "color": ["#DCB7AF", "#DCB7AF"]
+        "color": [
+          "#DCB7AF",
+          "#DCB7AF"
+        ]
       },
       {
         "name": "ダナン工科大学",
         "description": [
           {
             "title": "経歴",
-            "subtitle": ["1953 創立"]
+            "subtitle": [
+              "1953 創立"
+            ]
           },
           {
             "title": "特徴",
@@ -199,14 +209,19 @@
           "alt": "Bach Khoa DN"
         },
         "link": "http://dut.udn.vn/",
-        "color": ["#E4E8DB", "#374240"]
+        "color": [
+          "#E4E8DB",
+          "#374240"
+        ]
       },
       {
         "name": "郵政電信工芸学院",
         "description": [
           {
             "title": "経歴",
-            "subtitle": ["1975 創立"]
+            "subtitle": [
+              "1975 創立"
+            ]
           },
           {
             "title": "特徴",
@@ -228,7 +243,10 @@
           "alt": "BCVT"
         },
         "link": "https://portal.ptit.edu.vn/",
-        "color": ["#2A323F", "#2A323F"]
+        "color": [
+          "#2A323F",
+          "#2A323F"
+        ]
       }
     ]
   }
