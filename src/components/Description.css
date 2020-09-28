@@ -8,6 +8,7 @@
   text-align: center;
   padding-top:20px;
   padding-bottom: 10px;
+  font-family: georgia, serif;
 }
 
 .description__subtitle {
@@ -15,8 +16,10 @@
   color: white;
   text-align: left;
   padding: 0 85px; 
-  font-weight: 300;
+  font-weight: normal;
   word-break: break-word;
+  font-family: georgia, serif;
+  line-height: 1.6;
 }
 /* Extra Small Devices, Phones */
 
