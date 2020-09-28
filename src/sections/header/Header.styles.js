@@ -6,6 +6,7 @@ export const Wrapper = styled.header({
   },
   display: "flex",
   justifyContent: "space-between",
+  alignItems: "center",
   position: "absolute",
   top: 0,
   left: 0,
@@ -61,27 +62,33 @@ export const Wrapper = styled.header({
 export const Logo = styled.div({
   margin: "15px 0 0px -80px",
   [mq[2]]: {
-    margin: "10px 10px 0 10px",
+    margin: "10px 10px 0 -10px",
+    width: "30%",
+    height: "30%",
   },
   '& a': {
+    display: "block",
+    marginBottom: 0,
     '& img': {
       marginBottom: 0,
     }
   }
 })
 export const ToggleButton = styled.div({
+  display: "flex",
+  alignItems: "center",
   "& svg": {
-    position: "fixed",
-    right: "2%",
-    top: "2%",
-    padding: "5px",
     cursor: "pointer",
     fontSize: "45px",
     display: "none",
     zIndex: 99,
     [mq[2]]: {
-      display: "flex",
+      display: "block",
+      fontSize: "35px",
       zIndex: 99,
+    },
+    [mq[0]]: {
+      fontSize: "25px",
     },
   },
 })

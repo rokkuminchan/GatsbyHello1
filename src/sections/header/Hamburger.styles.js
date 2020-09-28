@@ -31,7 +31,7 @@ export const MenuLayer = styled.div({
 
 export const MenuLinks = styled.div({
     position: "relative",
-    top: "20vh",
+    top: "10vh",
     '& nav': {
         '& ul': {
             margin: 0,
@@ -50,32 +50,13 @@ export const MenuLinks = styled.div({
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
+               
                 '& a': {
-                    position: "absolute",
-                    '& span': {
-                        fontSize: "30px",
-                        fontWeight: 700,
-                        letterSpacing: "3px",
-                        color: "#fff",
-                        display: "inline-block",
-                        transition: `all 0.7s`,
-                    },
-                    '& span:nth-of-type(1)':{
-                        backgroundImage: `linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0))`,
-                        WebkitBackgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                        '&:hover':{
-                            opacity: 0,
-                        }
-                    },
-                    '& span:nth-of-type(2)':{
-                        position: "absolute",
-                        left: 0,
-                        opacity: 0,
-                        '&:hover':{
-                            opacity: 1,
-                        }
-                    }
+                    fontSize: "30px",
+                    fontWeight: 700,
+                    letterSpacing: "3px",
+                    color: "#fff",
+                    textDecoration: "none",
                 }    
             }
         }

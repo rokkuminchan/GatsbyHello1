@@ -23,7 +23,7 @@ export const Wrapper = styled.div({
         "copyright"
         `,
         gridTemplateRows: `"1fr 5fr 1fr 0.8fr"`,
-        gridTemplateColumns: "unset",
+        gridTemplateColumns: "1fr",
     }
 })
 
@@ -39,6 +39,9 @@ export const Shape = styled.div({
         display: "block",
         height: "90vh",
         width: `calc(132% + 1.3px)`,
+        [mq[2]]: {
+            width: `calc(152% + 1.3px)`,
+        },
         '& path:first-of-type': {
             fill: `rgba(10,34,93,.1)`
         },
@@ -70,7 +73,9 @@ export const Left = styled.div({
         height: "30vh",
         transform: `translateY(-50%)`,
         backgroundColor: "#fff",
-        
+        [mq[2]]: {
+            display: "none"
+        },
     },
     '&>*':{
         marginBottom: "5vh",
@@ -105,7 +110,10 @@ export const Center = styled.div({
         width: "1px",
         height: "30vh",
         transform: `translateY(-50%)`,
-        backgroundColor: "#fff"
+        backgroundColor: "#fff",
+        [mq[2]]: {
+            display: "none"
+        },
     },
     '& div:first-of-type':{
         margin: 0,
@@ -121,7 +129,7 @@ export const Center = styled.div({
         marginBottom: "100px",
         [mq[2]]: {
             fontSize: "1.5em",
-            marginBottom: 0,
+            margin: "-20px 0 20px 0",
         },
     },
     '& div:last-of-type': {

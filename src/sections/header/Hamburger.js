@@ -37,8 +37,7 @@ function Hamburger({ state }) {
     return (
       <li>
         <Link ref={addToRefs} to={id}>
-          <span>{name}</span>
-          <span>{name}</span>
+          {name}
         </Link>
       </li>
     )
