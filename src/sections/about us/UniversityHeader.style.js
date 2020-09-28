@@ -68,11 +68,11 @@ export const Logo = styled.div(props => ({
     [mq[2]]: {
         top: props.upper ? "40%" : "52%",
         left: props.upper ? "50%" : "49%",
-        fontSize:"4em"
+        fontSize:"3em"
     },
-    [mq[3]]: {
-        fontSize:"3em",
-    },
+    // [mq[3]]: {
+    //     fontSize:"3em",
+    // },
     '& p': {
         textShadow: props.upper ? `
             -1px -1px 0 #C3C6C6,
@@ -87,7 +87,7 @@ export const Content = styled.div({
    background: "#0c625e",
    gridArea: "content",
    fontSize: "16px",
-   fontWeight: 700,
+   fontWeight: "bold",
    position: "relative",
    [mq[2]]: {
         background: "#f8fcff",
@@ -104,13 +104,13 @@ export const Content = styled.div({
        color: "#fff",
        textAlign: "justify",
        position: "absolute",
-       top: "40%",
+       top: "45%",
        left: "50%",
        transform: `translate(-50%, -50%)`,
        
-    //    [mq[0]]: {
-    //     fontSize:"0.9em",
-    //     },
+       [mq[0]]: {
+        width: "80%",
+        },
        [mq[1]]: {
             color: "#17427A",
             left: "50%",
@@ -123,9 +123,7 @@ export const Content = styled.div({
             top: "100%",
             fontSize:"1em",
         },
-        [mq[3]]: {
-   
-        },
+        
    }
 
 })
@@ -154,7 +152,7 @@ export const Image = styled.div({
     top: "15%",
     left:"15%",
     marginBottom:"0",
-    objectFit:"cover",
+    objectFit:"contain",
     [mq[1]]: {
         top:"25%",
         width: "80%",
@@ -167,6 +165,6 @@ export const Image = styled.div({
         top:"18%",
     },
     [mq[3]]: {
-        top:"20%",
+        top:"25%",
     },
 })

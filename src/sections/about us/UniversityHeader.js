@@ -3,7 +3,7 @@ import {Wrapper, LogoInner, Logo, Content, Background1, Background2, Image} from
 import Img from "gatsby-image" 
 
 const UniversityHeader = ({ data }) => {
-  console.log(data)
+
   return (
       <Wrapper>
         <LogoInner>
