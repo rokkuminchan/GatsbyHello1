@@ -126,7 +126,7 @@ export const Center = styled.div({
         fontWeight: 600,
         letterSpacing: "2px",
         color: "#fff",
-        marginBottom: "100px",
+        margin: "0 0 100px 0",
         [mq[2]]: {
             fontSize: "1.5em",
             margin: "-20px 0 20px 0",
