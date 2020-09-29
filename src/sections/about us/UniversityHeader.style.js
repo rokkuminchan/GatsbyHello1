@@ -91,7 +91,7 @@ export const Content = styled.div({
    position: "relative",
    [mq[2]]: {
         background: "#f8fcff",
-        height:"50%"
+        height:"100%",
     },
     [mq[0]]: {
         background: "#f8fcff",
@@ -110,20 +110,19 @@ export const Content = styled.div({
        
        [mq[0]]: {
         width: "80%",
+
         },
        [mq[1]]: {
             color: "#17427A",
             left: "50%",
-            top:"20%",
+            top:"100%",
             fontSize:"1em"
         },
     
         [mq[2]]: {
             color: "#17427A",
-            top: "100%",
             fontSize:"1em",
         },
-        
    }
 
 })
@@ -165,6 +164,6 @@ export const Image = styled.div({
         top:"18%",
     },
     [mq[3]]: {
-        top:"25%",
+        top:"20%",
     },
 })
