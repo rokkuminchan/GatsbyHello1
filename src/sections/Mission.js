@@ -14,9 +14,9 @@ export default function Mission({ data }) {
           <h3 className="mission__title">{data.title}</h3>
           <p className="mission__description">{data.description}</p>
         </div>
-        <Img
+        <img
           className="mission__img"
-          fluid={data.img.src.childImageSharp.fluid}
+          src={data.img.src.childImageSharp.fluid.src}
         />
         <div className="mission__values">
           {data.values.map((item, index) => {

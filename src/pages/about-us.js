@@ -115,7 +115,7 @@ export const query = graphql`
           src {
             childImageSharp {
               fluid {
-                srcSet
+                src
               }
             }
           }

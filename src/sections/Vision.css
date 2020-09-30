@@ -30,9 +30,9 @@
 
 .vision__description {
   text-align: center;
-  text-align: center;
   letter-spacing: 0.45px;
   opacity: 1;
+  width: 90%;
 }
 
 .vision__img {
@@ -60,7 +60,10 @@
 
   .vision__introduction {
     height: 270px;
-    font-size: 1em;
+  }
+
+  .vision__title {
+    font-size: 1.2em;
   }
 
   .vision__description {
@@ -81,8 +84,12 @@
     height: 400px;
   }
 
-  .vision__description {
+  .vision__title {
     font-size: 1.5em;
+  }
+
+  .vision__description {
+    font-size: 1.2em;
   }
 
   .round-title-list-item__title--greenbg {
