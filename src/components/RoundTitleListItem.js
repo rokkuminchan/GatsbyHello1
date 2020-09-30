@@ -1,7 +1,8 @@
-import React from "react";
-import "./RoundTitleListItem.css";
+import React from "react"
+import "./RoundTitleListItem.css"
 
 function RoundTitleListItem(props) {
+
   return (
     <div className="round-title-list-item">
       <div className={`round-title-list-item__title ${props.data.css}`}>
@@ -11,7 +12,7 @@ function RoundTitleListItem(props) {
         {props.data.description}
       </div>
     </div>
-  );
+  )
 }
 
-export default RoundTitleListItem;
+export default RoundTitleListItem

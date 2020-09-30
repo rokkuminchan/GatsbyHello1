@@ -1,17 +1,43 @@
 {
   "introduction": {},
-  "philosophy": {
-    "title": "PHILOSOPHY",
-    "mindsets": [
+  "mission": {
+    "title": "MISSION",
+    "description": "高度IT人材で日本のDXに貢献する。",
+    "img": {
+      "src": "../../images/vision-bg.jpg",
+      "alt": ""
+    },
+    "values": [
       {
-        "title": "MISSION",
-        "description": "日本のに求められる高度IT人材を派遣する。"
+        "description": "普通の日本人と同じように、日本語の読み書きや会話ができる。",
+        "img": {
+          "src": "../../images/briefcase.png",
+          "alt": ""
+        }
       },
       {
-        "title": "VISION",
-        "description": "外国人IT技術者の「３つの壁」を乗り超え、最先端のIT技術を駆使して日本をサポートする。"
+        "description": "日本の文化を理解し、尊重し、保存する。",
+        "img": {
+          "src": "../../images/briefcase.png",
+          "alt": ""
+        }
+      },
+      {
+        "description": "日本人の働き方を学び、仕事に役立つシステムを設計する。",
+        "img": {
+          "src": "../../images/briefcase.png",
+          "alt": ""
+        }
       }
-    ],
+    ]
+  },
+  "vision": {
+    "title": "VISION",
+    "description": "外国人IT技術者の「３つの壁」を乗り超え、最先端のIT技術を駆使して日本をサポートする。",
+    "img": {
+      "src": "../../images/vision-bg.jpg",
+      "alt": ""
+    },
     "values": [
       {
         "title": "言葉の壁",
@@ -152,9 +178,7 @@
         "description": [
           {
             "title": "経歴",
-            "subtitle": [
-              "1956 創立"
-            ]
+            "subtitle": ["1956 創立"]
           },
           {
             "title": "特徴",
@@ -176,19 +200,14 @@
           "alt": "Bach khoa HN"
         },
         "link": "https://hust.edu.vn/",
-        "color": [
-          "#DCB7AF",
-          "#DCB7AF"
-        ]
+        "color": ["#DCB7AF", "#DCB7AF"]
       },
       {
         "name": "ダナン工科大学",
         "description": [
           {
             "title": "経歴",
-            "subtitle": [
-              "1953 創立"
-            ]
+            "subtitle": ["1953 創立"]
           },
           {
             "title": "特徴",
@@ -209,19 +228,14 @@
           "alt": "Bach Khoa DN"
         },
         "link": "http://dut.udn.vn/",
-        "color": [
-          "#E4E8DB",
-          "#374240"
-        ]
+        "color": ["#E4E8DB", "#374240"]
       },
       {
         "name": "郵政電信工芸学院",
         "description": [
           {
             "title": "経歴",
-            "subtitle": [
-              "1975 創立"
-            ]
+            "subtitle": ["1975 創立"]
           },
           {
             "title": "特徴",
@@ -243,10 +257,7 @@
           "alt": "BCVT"
         },
         "link": "https://portal.ptit.edu.vn/",
-        "color": [
-          "#2A323F",
-          "#2A323F"
-        ]
+        "color": ["#2A323F", "#2A323F"]
       }
     ]
   }

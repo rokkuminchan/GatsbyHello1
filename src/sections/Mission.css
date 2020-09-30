@@ -1,0 +1,37 @@
+.mission {
+  width: 100%;
+  height: 500px;
+  background: #b2e4ff 0% 0% no-repeat padding-box;
+}
+
+.mission___introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  padding-top: 60px;
+}
+
+.mission__values {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission__title {
+  color: #053c76;
+}
+
+.mission__description {
+  font-size: 1.5em;
+}
+
+.mission__img {
+  margin-right: 20px;
+  width: 40%;
+  height: 300px;
+  float: right;
+  margin-top: -50px;
+}
